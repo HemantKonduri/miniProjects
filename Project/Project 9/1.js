@@ -1,0 +1,6 @@
+var randomNumber;
+var arr = ['Devotion is that which generates knowledge, knowledge is that which fashions freedom', 'Blaming your faults on your nature does not change the nature of your faults.', 'Man needs his difficulties because they are necessary to enjoy success.','Need is not transitive. One may need without oneself being needed.','Real wisdom is recognizing and accepting that every experience is impermanent. With this insight you will not be overwhelmed by ups and downs','The doer must do only when the receiver is ready to receive. Otherwise, the act is wasted','Strength does not come from physical capacity. It comes from an indomitable will.','You cannot count on the physical proximity of someone you love, all the time.',' A seed that sprouts at the foot of its parent tree remains stunted until it is transplanted.',' Every human being, when the time comes, has to depart to seek his fulfillment in his own way.'];
+function oClick() {
+    randomNumber = Math.floor(Math.random() * 10);
+    document.getElementById("child1").innerText=arr[randomNumber];
+}

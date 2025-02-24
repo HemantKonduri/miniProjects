@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-image: linear-gradient( 178.7deg,  rgba(251,225,14,0.57) 1%, rgba(255,253,220,1) 88.2% );
+    /* opacity: 1; */
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+       
+}
+
+.Title{
+    color: #3c5468;
+    font-size: 100px;
+    font-family: 'Rokkitt', serif;
+    border: 2px solid black;
+    border-radius: 1000px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.boxOne{
+    border: 2px solid black;
+    font-size: 30px;
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 0%;
+
+
+}
+/* textarea {
+    font-size: 13px;
+    resize: none;
+    border-color: Transparent; 
+  } */
+
+img{
+    height: 52px;
+    padding: 9px;
+}
+.copy{
+    cursor: pointer;
+    background-color: white;
+    padding: 9px;
+}
+.copy:hover{
+    background-color:  rgba(251,225,14,0.57) ;
+}
+
+.class1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+.value1{
+    font-family: 'Rokkitt', serif;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    /* border: 2px solid red;
+    display: flex;
+    flex-direction: column; */
+}
+
+.value2{
+    margin: 0px 0px 15px -171pxx;
+    padding: 0px 0px 0px 0px;
+    width: 500px;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.value3{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 25px;
+    width: 35px;
+}
+
+.btn{
+    font-size: 16px;    
+    font-weight: bolder;
+    width: 200px;
+    margin: 15px 0px 0px 175px;
+    padding: 10px;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    background-color:  rgb(138, 230, 0) ;
+    color: white;
+    transition: all 0.25s ease-out;
+}
+
+.text{
+    font-family: 'Rokkitt', serif;
+    font-weight: bolder;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    background-color: white;
+    width: 650px;
+    height: 77px;
+    color: rgb(202, 202, 202);
+    
+}
+
+#name{
+    display: none;
+}
+
+
+::selection {
+    color: red;
+    background: yellow;
+  }

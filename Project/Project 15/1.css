@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div{
+    font-size: 1.5em;
+    border: 5px solid black;
+    background-image: linear-gradient(110deg, deeppink, yellow);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inp{
+    border: 5px solid black;
+    height: 8vh;
+    width: 12vw;
+    font-size: 2em;
+}
+
+#btn{
+    border: 5px solid black;
+    height: 2.5em;
+    width: 5em;
+    font-size: 1em;
+    cursor: pointer;
+}

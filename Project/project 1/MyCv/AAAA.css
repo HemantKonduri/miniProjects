@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-image: url("A.jpg");
+    background-repeat: no-repeat;
+    background-size:170%;
+    font-family: 'Dancing Script', cursive;
+  }
+
+.left{
+    /*border: 2px solid red;*/
+    display: inline-block;
+    position: absolute;
+    left: 19px;
+    top: 14px
+}
+
+.mid{
+    border: 2px solid black;
+    display: block;
+    width: 45%;
+    margin: 12px auto;
+    
+}
+
+.right{
+    position: absolute;
+    right: 32px;
+    top: 24px;
+    /*border: 2px solid green;*/
+    
+}
+
+.navbar{
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 24px;
+}
+
+.navbar li a:hover, .navbar li a.active  {
+    
+    color: black;
+}
+
+.left img{
+    width: 75px;
+}
+
+.left div{
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn{
+    margin: 8px 3px;
+    padding: 7px 21px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+}
+
+
+
+.container{
+    margin: 56px;
+    font-size: 50px;
+    border: 2px solid black;
+    padding: 0px 6px 50px 9px;
+    width: 89%;
+    text-align: center;
+
+}
+
+h1{
+   /* padding: 0px;
+    margin: 2px 0px 29px 0px;*/
+    color: black;
+}

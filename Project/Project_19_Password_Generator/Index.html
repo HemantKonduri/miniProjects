@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="Title">Password Generator</h1>
+        <div class="boxOne">
+            <div class="class1">
+                <!-- <textarea id="password" class="text" rows="5" cols="90" autocomplete="off"></textarea> -->
+                <input type="text" value="Your Password Will Display Here." id="name">
+                <div id="password" class="text">Your Password Will Display Here.</div>
+                <div class="copy" onclick="clipboard()">
+                    <img src="clipboard.svg" alt="clipboard" class="clipboard" >
+                </div>
+            </div>
+            <div class="class2">
+
+                <form action="">
+                    <ul class="grid">
+                        <li>
+                            <label class="value1"for="UpperCase">Upper Case</label>
+                            <input class="value2"type="range" name="rangeInput" min="0" max="10" onchange="updateTextInput1(this.value);">
+                            <input class="value3" type="text" id="textInput1" value="5" autocomplete="off"><br>
+                        </li>
+                       
+                        <li>
+                            <label class="value1"for="LowerCase">Lower Case</label>
+                            <input class="value2"type="range" name="rangeInput" min="0" max="10" onchange="updateTextInput2(this.value);">
+                            <input class="value3" type="text" id="textInput2" value="5" autocomplete="off"><br>
+                        </li>
+
+                        <li>
+                            <label class="value1"for="Numbers">Numbers</label>
+                            <input class="value2"type="range" name="rangeInput" min="0" max="10" onchange="updateTextInput3(this.value);">
+                            <input class="value3" type="text" id="textInput3" value="5" autocomplete="off"><br>
+                        </li>
+
+                        <li>
+                            <label class="value1"for="Symbol">Symbol</label>
+                            <input class="value2"type="range" name="rangeInput" min="0" max="10" onchange="updateTextInput4(this.value);">
+                            <input class="value3" type="text" id="textInput4" value="5" autocomplete="off"><br>
+                        </li>
+
+
+                        <button class="btn" type="submit" onclick="event.preventDefault(); fun();">Generate</button>
+                    </ul>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

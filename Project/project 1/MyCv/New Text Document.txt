@@ -1,0 +1,8 @@
+<a herf="A.htm">About</a>
+        <img id="i1" src="1.jpg" alt="" width="500" height="600">
+        <img id="i2" src="2.jpg" alt="" width="500" height="600">
+        <img id="i3" src="3.jpg" alt="" width="500" height="600">
+        <img id="i4" src="4.jpg" alt="" width="500" height="600">
+        <img id="i5" src="5.jpg" alt="" width="500" height="600">
+        <img id="i6" src="6.jpg" alt="" width="500" height="600">
+        <img id="i7" src="7.jpg" alt="" width="500" height="600">

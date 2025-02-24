@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /*background: #dde1e7;*/
+    /*background: #808080;*/
+    background: #ffffff;
+    
+}
+.container{
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.neu{
+    margin: -800px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+    /*background: #dde1e7;*/
+    /*background:   #ffcc00;*/
+    background: #0099ff;
+    box-shadow: -3px -3px 5px #ffffff10, 3px 3px 15px #00000070;
+}
+/*.neu1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: #dde1e7;
+    box-shadow: inset -3px -3px 5px #ffffff70, inset 3px 3px 15px #00000070;
+}*/
+.img{
+    margin: 10px 0px 0px 10px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+h1{
+    display: block;
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px 0px 100px;
+    background-color: #ffffff;
+}
+
+.svg1{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    animation-name: example;
+    animation-duration: 3s;
+}
+.svg2{
+    margin: -4px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    animation-name: example;
+    animation-duration: 3s;
+}
+.svg3{
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    0%   {opacity: 0.1;}
+    25%  {opacity: 0.2;}
+    50%  {opacity: 0.3;}
+    
+  }
+

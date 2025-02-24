@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: deeppink;
+}
+
+.container{
+    font-size: 3em;
+    color: white;
+    border: 100px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.ele1{
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid yellow; */
+    height: 70%;
+    width: 50%;
+}
